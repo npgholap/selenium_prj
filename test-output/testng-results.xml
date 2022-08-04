@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-04T14:41:06 IST" name="Suite" finished-at="2022-08-04T14:41:55 IST" duration-ms="49453">
+    <groups>
+    </groups>
+    <test started-at="2022-08-04T14:41:06 IST" name="Test" finished-at="2022-08-04T14:41:55 IST" duration-ms="49453">
+      <class name="webprj.webapp.firstTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:webprj.webapp.firstTest@609640d5]" started-at="2022-08-04T14:41:06 IST" name="init" finished-at="2022-08-04T14:41:15 IST" duration-ms="9175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="searchtexttest()[pri:-1, instance:webprj.webapp.firstTest@609640d5]" started-at="2022-08-04T14:41:30 IST" name="searchtexttest" finished-at="2022-08-04T14:41:32 IST" duration-ms="1911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtexttest -->
+        <test-method signature="gmaillinktest()[pri:0, instance:webprj.webapp.firstTest@609640d5]" started-at="2022-08-04T14:41:32 IST" name="gmaillinktest" finished-at="2022-08-04T14:41:43 IST" duration-ms="11802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmaillinktest -->
+        <test-method signature="imglinktest()[pri:0, instance:webprj.webapp.firstTest@609640d5]" started-at="2022-08-04T14:41:43 IST" name="imglinktest" finished-at="2022-08-04T14:41:50 IST" duration-ms="6550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imglinktest -->
+        <test-method signature="signinlinktest()[pri:0, instance:webprj.webapp.firstTest@609640d5]" started-at="2022-08-04T14:41:50 IST" name="signinlinktest" finished-at="2022-08-04T14:41:55 IST" duration-ms="4746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinlinktest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:webprj.webapp.firstTest@609640d5]" started-at="2022-08-04T14:41:55 IST" name="Teardown" finished-at="2022-08-04T14:41:55 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- webprj.webapp.firstTest -->
+      <class name="webprj.webapp.secondTest">
+        <test-method is-config="true" signature="init1()[pri:0, instance:webprj.webapp.secondTest@7a791b66]" started-at="2022-08-04T14:41:15 IST" name="init1" finished-at="2022-08-04T14:41:19 IST" duration-ms="4246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init1 -->
+        <test-method signature="signin()[pri:-1, instance:webprj.webapp.secondTest@7a791b66]" started-at="2022-08-04T14:41:19 IST" name="signin" finished-at="2022-08-04T14:41:21 IST" duration-ms="2107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method signature="emailtxt(java.lang.String)[pri:2, instance:webprj.webapp.secondTest@7a791b66]" started-at="2022-08-04T14:41:21 IST" name="emailtxt" data-provider="getData" finished-at="2022-08-04T14:41:25 IST" duration-ms="3102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nishapgholap@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailtxt -->
+        <test-method signature="emailtxt(java.lang.String)[pri:2, instance:webprj.webapp.secondTest@7a791b66]" started-at="2022-08-04T14:41:25 IST" name="emailtxt" data-provider="getData" finished-at="2022-08-04T14:41:27 IST" duration-ms="2806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[golap.nish@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailtxt -->
+        <test-method signature="createaccount()[pri:3, instance:webprj.webapp.secondTest@7a791b66]" started-at="2022-08-04T14:41:27 IST" name="createaccount" finished-at="2022-08-04T14:41:30 IST" duration-ms="2252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:webprj.webapp.secondTest@7a791b66]" started-at="2022-08-04T14:41:55 IST" name="Teardown" finished-at="2022-08-04T14:41:55 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- webprj.webapp.secondTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
